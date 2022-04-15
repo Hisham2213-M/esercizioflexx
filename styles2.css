@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.sidebar {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+    background-color: chocolate;
+  height: 100vh;
+    margin: 0;
+    border: 2px solid black;
+}
+
+  .links-sidebar {
+
+    margin-top: 300px;
+}
+
+.Linkoni {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:flex-end;
+    background-color: rgb(241, 169, 117);
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.linkz {
+    padding-top: 80px;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.linkz:hover {
+    background-color: wheat;
+    width: 200px;
+    height: 100px;
+    color: #2b2bb2;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 150px;
+   
+}
+
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;    
+    background-color: #f5c49e;
+    flex-direction: row-reverse;
+}
+
+   .Nome {
+    font-weight: unset;
+    font-size: smaller;
+    font-weight: bolder;
+    margin-bottom: 13px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.Nome:hover {
+    color: white;
+    cursor: crosshair;
+    transition: 0.2s;
+
+}
+
+.avatar {
+    border-radius: 20px 20px 20px 20px;
+}
+ .picture {
+     background-color: rgb(240, 198, 168) ;
+     
+    
+ }
